@@ -1,3 +1,4 @@
-# FOR COLLABORATORS
+# WORK BRIEFING
+## Only for team Members
 
-Realizar aportes subiendo documentación y escritos que ya esta en Monday y ponerlo en la seccion WIKI, al implementar un parche preferiblemente realizar un PULL REQUEST para revision.
+Imperativo crear los **Objetivos, nombre del prototipo, contexto, introduccion y alcance** antes del domingo si se puede para asi poder dedicar ese espacio al diseño conceptual
