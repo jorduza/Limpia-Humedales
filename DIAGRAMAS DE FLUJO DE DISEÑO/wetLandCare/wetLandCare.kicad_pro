@@ -482,8 +482,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.6,
-        "via_diameter": 1.8,
+        "track_width": 0.65,
+        "via_diameter": 2.0,
         "via_drill": 0.8,
         "wire_width": 6
       },
@@ -494,7 +494,7 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.9,
-        "via_diameter": 2.0,
+        "via_diameter": 2.2,
         "via_drill": 0.9
       }
     ],
@@ -535,7 +535,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fab filesv2/",
+      "plot": "fabFilesv2LabProt/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
