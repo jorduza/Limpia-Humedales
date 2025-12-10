@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control Wetlandcare</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div id="status" class="status disconnected">
+            Desconectado
+</div>
+
+<div id="bateria" class="bateria-nivel">
+            <span id="porcentaje"></span>
+</div>
+
+<h2>Control del Wetlandcare</h2>
+
+<h3>Controles del prototipo</h3>
+
+
+<div class="controles">
+    <button id="adelante" class="off" aria-label="Arriba">
+        <img src="./icons/arrow-up.png" alt="">
+    </button>
+    <button id="atras" class="off" aria-label="Abajo">
+        <img src="./icons/arrow-up.png" alt="">
+    </button>
+    <button id="izquierda" class="off" aria-label="Izquierda">
+        <img src="./icons/arrow-up.png" alt="">
+    </button>
+    <button id="derecha" class="off">
+        <img src="./icons/arrow-up.png" alt="" aria-label="Derecha">
+    </button>
+
+</div>
+
+<p>Velocidad: <span id="speedBVal">0</span>%</p>
+<input type="range" min="0" max="100" value="0"
+class="slider" id="sliderVel">
+<hr>
+
+<div class="motorbanda-div">
+    <h3>Motor Banda</h3>
+    <button id="btnB" class="off_B" aria-label=" ">
+        Encender
+    </button>
+</div>
+
+
+<script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
+
+<!--  { 'Apagar' if motorA.running else 'Encender' }-->
